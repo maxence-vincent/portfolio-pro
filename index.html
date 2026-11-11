@@ -1,0 +1,618 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00171F">
+  <meta name="description" content="Portfolio professionnel de Maxence Vincent, docteur en chimie des matériaux, candidat aux fonctions d'ingénieur matériaux R&D.">
+  <title>Maxence Vincent | Ingénieur Matériaux – R&D</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="page-shell">
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark">MV</span>
+      <span class="brand-name" data-i18n="brand">PORTFOLIO PROFESSIONNEL</span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a href="#presentation" data-i18n="nav.about">Présentation</a>
+      <a href="#parcours" data-i18n="nav.experience">Expérience</a>
+      <a href="#competences" data-i18n="nav.skills">Compétences</a>
+      <a href="#projets" data-i18n="nav.projects">Projets</a>
+      <a href="#formation" data-i18n="nav.education">Formation</a>
+      <a href="#publications" data-i18n="nav.publications">Publications</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="language-switch" id="language-switch" aria-label="Switch to English">EN</button>
+      <a class="header-contact" href="#contact" data-i18n="nav.getInTouch">Échanger <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ACCUEIL -->
+   
+<section class="hero section-wrap" id="accueil">
+  <div class="hero-topline">
+    <span class="eyebrow" data-i18n="hero.eyebrow">SCIENCE · MATÉRIAUX · CHIMIE</span>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-kicker" data-i18n="hero.degree">Docteur en chimie des matériaux</p>
+
+    <h1>MAXENCE<br></em>VINCENT</em></h1>
+    <p class="hero-age" data-i18n="hero.age">28 ans</p>
+
+    <div class="hero-position">
+      <span class="hero-position-line"></span>
+      <div>
+        <p class="hero-position-label" data-i18n="hero.targetLabel">POSTE RECHERCHÉ</p>
+        <p class="hero-position-title" data-i18n="hero.target">Ingénieur Matériaux – R&D</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    <!-- PRÉSENTATION -->
+    <section class="content-section section-wrap" id="presentation">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <p class="eyebrow" data-i18n="about.eyebrow">PRÉSENTATION</p>
+        <h2 data-i18n-html="about.heading">Comprendre le monde,<br><em>puis explorer.</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-lead">
+          <p data-i18n="about.lead">
+            Docteur en chimie des matériaux, mon parcours m'a conduit à explorer différentes problématiques scientifiques, de la synthèse de matériaux fonctionnels à leur caractérisation avancée.
+          </p>
+        </div>
+
+        <div class="about-detail">
+          <p data-i18n="about.p1">
+            L'autonomie et la rigueur constituent le socle de mon approche scientifique. La conduite de travaux expérimentaux, l'analyse critique des résultats et la recherche de solutions face aux difficultés rencontrées ont façonné ma manière de travailler.
+          </p>
+          <p data-i18n="about.p2">
+            Curieux et polyvalent, je souhaite continuer à élargir mon champ de compétences et découvrir de nouveaux domaines scientifiques et technologiques. Je ne cherche pas à me limiter à une spécialité, mais à m'investir dans des projets ambitieux, à la croisée de plusieurs disciplines.
+          </p>
+          <p class="about-emphasis" data-i18n="about.p3">
+            Ce qui me motive avant tout est de contribuer à un projet qui a une utilité réelle : développer une solution, faire progresser une technologie ou répondre à un besoin concret, qu'il soit industriel ou sociétal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPÉRIENCE -->
+    <section class="content-section section-wrap" id="parcours">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <p class="eyebrow" data-i18n="experience.eyebrow">EXPÉRIENCE PROFESSIONNELLE</p>
+        <h2 data-i18n-html="experience.heading">Mes expériences<br></h2>
+        <p class="section-intro" data-i18n="experience.intro">
+          Des travaux de recherche et de développement menés en laboratoire, autour de la synthèse, de la caractérisation et de l'étude de matériaux fonctionnels.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span></span></div>
+          <div class="timeline-date">
+            <span>2022 — 2025</span>
+            <span class="timeline-type" data-i18n="experience.type1">DOCTORAT</span>
+          </div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.job1">Docteur en chimie des matériaux</h3>
+            <p class="timeline-place">Institut Européen des Membranes - Montpellier</p>
+            <p data-i18n="experience.desc1">
+              Développement et caractérisation de matériaux Al–N–H dérivés de l'ammonia alane pour le stockage chimique de l'hydrogène.
+            </p>
+            <ul>
+              <li data-i18n="experience.bullet1">Conception et conduite autonome d'un programme expérimental : définition des priorités, planification des essais, organisation des campagnes de caractérisation et analyse des résultats.</li>
+              <li data-i18n="experience.bullet2">Développement de trois stratégies de synthèse : réaction acide-base de Lewis, métathèse et broyage cryogénique.</li>
+              <li data-i18n="experience.bullet3">Caractérisation multi-technique et étude des environnements chimiques et structuraux.</li>
+              <li data-i18n="experience.bullet4">Initiation d'une collaboration scientifique avec le CEA Saclay, à l'origine de deux publications (cf : Publications).</li>
+            </ul>
+            <div class="tag-list">
+              <span>Ammonia alane</span><span>Synthèse</span><span>Caractérisations</span><span>Stockage H₂</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span></span></div>
+          <div class="timeline-date">
+            <span>AVR. — SEPT. 2022</span>
+            <span class="timeline-type" data-i18n="experience.type2">STAGE R&D</span>
+          </div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.job2">Stagiaire en recherche et développement</h3>
+            <p class="timeline-place">CEA - Grenoble</p>
+            <p data-i18n="experience.desc2">
+              Synthèse solvothermale de matériaux poreux de type MOF pour le stockage de l'hydrogène par adsorption.
+            </p>
+            <ul>
+              <li data-i18n="experience.bullet5">Synthèse de matériaux poreux et imprégnation par nanoparticules de carbone.</li>
+              <li data-i18n="experience.bullet6">Évaluation des propriétés d'adsorption par mesures PCT et BET.</li>
+            </ul>
+            <div class="tag-list">
+              <span>MOF</span><span>Adsorption H₂</span><span>BET</span><span>PCT</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span></span></div>
+          <div class="timeline-date">
+            <span>MARS — JUIL. 2021</span>
+            <span class="timeline-type" data-i18n="experience.type3">STAGE</span>
+          </div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.job3">Stagiaire en chimie des matériaux</h3>
+            <p class="timeline-place">Institut Européen des Membranes - Montpellier</p>
+            <p data-i18n="experience.desc3">
+              Synthèse et caractérisation de matériaux céramiques à base d'aminoboranes pour le stockage de l'hydrogène.
+            </p>
+            <ul>
+              <li data-i18n="experience.bullet7">Synthèse et caractérisation par RMN liquide, FTIR, ATG-MS, DSC et UV-Visible.</li>
+            </ul>
+            <div class="tag-list">
+              <span>Amines boranes</span><span>Céramiques</span><span>Analyses</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="content-section section-wrap" id="competences">
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <p class="eyebrow" data-i18n="skills.eyebrow">COMPÉTENCES</p>
+        <h2 data-i18n-html="skills.heading">Savoir-faire<br><em>scientifique.</em></h2>
+      </div>
+
+      <div class="skills-layout">
+
+        <!-- SYNTHÈSE -->
+        <article class="skill-family skill-family-primary">
+          <div class="skill-family-heading">
+            <span class="skill-family-index">01</span>
+            <div>
+              <p class="skill-category" data-i18n="skills.catSynthesis">ÉLABORATION</p>
+              <h3 data-i18n="skills.synthesisTitle">Synthèse et développement de matériaux</h3>
+            </div>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row" data-skill="lewis"><span>Réaction acide-base de Lewis</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="metathesis"><span>Métathèse</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="milling"><span>Broyage cryogénique</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="synthesis-ceramic"><span>Synthèse céramique</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="synthesis-solvothermal"><span>Synthèse solvothermale</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="protocols"><span>Optimisation de protocoles</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="inert"><span>Manipulation sous atmosphère inerte</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+          </div>
+        </article>
+
+        <!-- RMN -->
+        <article class="skill-family skill-family-primary">
+          <div class="skill-family-heading">
+            <span class="skill-family-index">02</span>
+            <div>
+              <p class="skill-category">CARACTÉRISATION STRUCTURALE</p>
+              <h3>Résonance magnétique nucléaire</h3>
+            </div>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row" data-skill="nmr-mas"><span>RMN MAS</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="mqmas"><span>MQMAS</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+            <div class="skill-row" data-skill="cpmas"><span>CPMAS</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="hetcor"><span>HETCOR / REDOR</span><span class="skill-dots" aria-label="3 sur 5"></span></div>
+            <div class="skill-row" data-skill="nmr-liquid"><span>RMN liquide</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+          </div>
+        </article>
+
+        <!-- SPECTROSCOPIES -->
+        <article class="skill-family">
+          <div class="skill-family-heading">
+            <span class="skill-family-index">03</span>
+            <div>
+              <p class="skill-category">ANALYSE CHIMIQUE</p>
+              <h3 data-i18n="skills.spectroscopyTitle">Spectroscopies</h3>
+            </div>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row" data-skill="ftir"><span>FTIR</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="xps"><span>XPS</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="raman"><span>Raman</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="uv"><span>UV-Visible</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+          </div>
+        </article>
+
+        <!-- STRUCTURE -->
+        <article class="skill-family">
+          <div class="skill-family-heading">
+            <span class="skill-family-index">04</span>
+            <div>
+              <p class="skill-category">STRUCTURE ET MORPHOLOGIE</p>
+              <h3 data-i18n="skills.structureTitle">Analyses structurales et microscopie</h3>
+            </div>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row" data-skill="xrd"><span>DRX</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+            <div class="skill-row" data-skill="sem"><span>MEB-EDX</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+          </div>
+        </article>
+
+        <!-- THERMIQUE -->
+        <article class="skill-family">
+          <div class="skill-family-heading">
+            <span class="skill-family-index">05</span>
+            <div>
+              <p class="skill-category">COMPORTEMENT THERMIQUE ET GAZEUX</p>
+              <h3 data-i18n="skills.thermalTitle">Analyses thermiques et gazeuses</h3>
+            </div>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row" data-skill="gcms"><span>GC-MS</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+            <div class="skill-row" data-skill="tga"><span>ATG-MS</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+            <div class="skill-row" data-skill="dsc"><span>DSC</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+          </div>
+        </article>
+
+        <!-- ADSORPTION -->
+        <article class="skill-family">
+          <div class="skill-family-heading">
+            <span class="skill-family-index">06</span>
+            <div>
+              <p class="skill-category">PROPRIÉTÉS FONCTIONNELLES</p>
+              <h3 data-i18n="skills.adsorptionTitle">Porosité et adsorption</h3>
+            </div>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row" data-skill="bet"><span>BET</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+            <div class="skill-row" data-skill="pct"><span>PCT</span><span class="skill-dots" aria-label="4 sur 5"></span></div>
+            <div class="skill-row" data-skill="gas"><span>Captage CO2</span><span class="skill-dots" aria-label="3 sur 5"></span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="software-block">
+        <p class="skill-category" data-i18n="skills.softwareLabel">LOGICIELS</p>
+        <div class="software-list">
+          <div class="skill-row" data-skill="dmfit"><span>DMFIT</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+          <div class="software-item" data-skill="origin"><span>OriginPro</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+          <div class="software-item" data-skill="omnic"><span>OMNIC</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+          <div class="software-item" data-skill="office"><span>Microsoft Office</span><span class="skill-dots" aria-label="5 sur 5"></span></div>
+        </div>
+      </div>
+
+      <p class="skills-legend" data-i18n="skills.legend">
+        Indicateurs : Niveau 1 Connaissance basique ; Niveau 2 Intermédiaire ; Niveau 3 Autonome ; Niveau 4 Avancé ; Niveau 5 Maitrise complète.
+      </p>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="content-section section-wrap" id="projets">
+      <div class="section-heading">
+        <span class="section-number">04</span>
+        <p class="eyebrow" data-i18n="projects.eyebrow">PROJETS & RÉALISATIONS</p>
+        <h2 data-i18n-html="projects.heading">Explorer différentes disciplines.<br></h2>
+      </div>
+
+      <p class="project-group-label" data-i18n="projects.academic">PROJETS SCIENTIFIQUES ET ACADÉMIQUES</p>
+
+      <div class="project-list">
+
+        <!-- PROJET REVÊTEMENTS -->
+        <article class="project-item reveal">
+          <div class="project-number">02</div>
+          <div class="project-main">
+            <p class="project-category">MASTER 2 · MATÉRIAUX POUR L'AÉRONAUTIQUE</p>
+            <h3 data-i18n="projects.coatingTitle">Revêtements polymères superhydrophobes pour les vitrages de cockpit</h3>
+            <p data-i18n="projects.coatingSummary">
+              Étude de solutions de revêtements fonctionnels destinés à limiter l'encrassement et la formation de givre sur les vitrages aéronautiques.
+            </p>
+            <button type="button" class="text-link project-toggle" aria-expanded="false" data-target="project-coating">
+              <span data-i18n="projects.details">Consulter le projet</span><span>＋</span>
+            </button>
+            <div class="project-detail" id="project-coating" hidden>
+              <h4 data-i18n="projects.context">Contexte scientifique</h4>
+              <p data-i18n="projects.coatingContext">
+                Ce travail bibliographique portait sur le développement de revêtements polymères superhydrophobes pour les vitres de cockpit. L'objectif était d'identifier des solutions alternatives pour limiter l'encrassement et le givrage, tout en tenant compte des contraintes d'utilisation réelles en aéronautique.
+              </p>
+              <h4 data-i18n="projects.approaches">Approches étudiées</h4>
+              <p data-i18n="projects.coatingApproaches">
+                Plusieurs stratégies ont été examinées : création de structures hiérarchisées, introduction de nanoparticules, texturation par lithographie douce et formulation de nanocomposites polymères. Une piste reposait notamment sur l'association PDMS/SiO₂, avec des méthodes de dépôt par immersion ou pulvérisation.
+              </p>
+              <h4 data-i18n="projects.outlook">Perspectives de développement</h4>
+              <p data-i18n="projects.coatingOutlook">
+                L'étude envisageait la faisabilité d'un passage de l'échelle laboratoire à un procédé pilote, puis à une éventuelle industrialisation. L'impression 3D, la sélection des matériaux à l'aide de CES EduPack et l'analyse du cycle de vie constituaient également des pistes de réflexion.
+              </p>
+              <p class="project-status" data-i18n="projects.coatingStatus">
+                Étude bibliographique et proposition de stratégies de développement ; aucun revêtement finalisé ni procédé industrialisé n'est revendiqué.
+              </p>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+
+        <!-- MICROTECHNOLOGIES -->
+        <article class="project-item reveal">
+          <div class="project-number">03</div>
+          <div class="project-main">
+            <p class="project-category">MASTER 2 · MICROTECHNOLOGIES</p>
+            <h3 data-i18n="projects.microTitle">Dépôt de couches minces par évaporation sous vide</h3>
+            <p data-i18n="projects.microSummary">
+              Travaux pratiques en salle blanche consacrés aux procédés de dépôt de couches minces par évaporation sous vide.
+            </p>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+
+        <!-- PHOTOVOLTAÏQUE -->
+        <article class="project-item reveal">
+          <div class="project-number">04</div>
+          <div class="project-main">
+            <p class="project-category">MASTER 2 · ÉNERGIE ET MATÉRIAUX</p>
+            <h3 data-i18n="projects.pvTitle">Étude bibliographique des technologies photovoltaïques</h3>
+            <p data-i18n="projects.pvSummary">
+              Analyse des technologies de cellules photovoltaïques, de leurs performances et des axes de recherche visant à améliorer leur efficacité et leur durabilité.
+            </p>
+            <button type="button" class="text-link project-toggle" aria-expanded="false" data-target="project-pv">
+              <span data-i18n="projects.details">Consulter le projet</span><span>＋</span>
+            </button>
+            <div class="project-detail" id="project-pv" hidden>
+              <h4 data-i18n="projects.context">Contexte scientifique</h4>
+              <p data-i18n="projects.pvContext">
+                L'étude comparait la technologie des wafers, largement implantée, aux technologies à couches minces, dont les procédés peuvent être moins énergivores mais dont les rendements restent un enjeu de développement.
+              </p>
+              <h4 data-i18n="projects.approaches">Axes de recherche étudiés</h4>
+              <p data-i18n="projects.pvApproaches">
+                Les travaux bibliographiques abordaient la gestion thermique des cellules, le développement de revêtements transparents aux propriétés antireflet, autonettoyantes et antigivre, ainsi que les cellules tandem associant plusieurs matériaux pour dépasser les limites de rendement des technologies conventionnelles.
+              </p>
+              <h4 data-i18n="projects.outlook">Durabilité et recyclage</h4>
+              <p data-i18n="projects.pvOutlook">
+                Les voies de recyclage ont également été étudiées, notamment le broyage, la délamination chimique ou thermique et la récupération de matériaux d'intérêt comme le silicium.
+              </p>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+        
+  <!-- PROJET RADIOACTIVITÉ -->
+        <article class="project-item reveal">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <p class="project-category">LICENCE · CHIMIE ET ENVIRONNEMENT</p>
+            <h3 data-i18n="projects.radioTitle">Radioactivité et environnement : solubilité des phases uranifères</h3>
+            <p data-i18n="projects.radioSummary">
+              Projet tutoré consacré à la présence naturelle des radionucléides dans l'environnement et à l'étude bibliographique des phases uranifères et thorifères.
+            </p>
+            <button type="button" class="text-link project-toggle" aria-expanded="false" data-target="project-radio">
+              <span data-i18n="projects.details">Consulter le projet</span><span>＋</span>
+            </button>
+            <div class="project-detail" id="project-radio" hidden>
+              <h4 data-i18n="projects.context">Contexte scientifique</h4>
+              <p data-i18n="projects.radioContext">
+                La radioactivité naturelle est omniprésente dans l'environnement. L'étude bibliographique a porté sur les principales familles radioactives, notamment les séries associées aux isotopes ²³⁸U, ²³⁵U et ²³²Th, ainsi que sur les mécanismes de désintégration alpha et bêta conduisant à des isotopes plus stables.
+              </p>
+              <h4 data-i18n="projects.objectives">Objectifs et démarche</h4>
+              <p data-i18n="projects.radioObjectives">
+                Le travail a consisté à étudier les différentes phases naturelles de l'uranium et du thorium, leurs localisations et leurs abondances. Une campagne de prélèvements a été effectuée autour de la mine de Puech Buissou, en amont et en aval du site, ainsi que sur plusieurs sites : la plage de l'Espiguette dans le Gard et le Collet-de-Dèze en Lozère.
+              </p>
+              <h4 data-i18n="projects.methods">Méthodes envisagées</h4>
+              <p data-i18n="projects.radioMethods">
+                Le protocole prévoyait la caractérisation d'échantillons liquides et solides par scintillation liquide alpha de type PERALS et par spectroscopie infrarouge. Le projet s'inscrivait dans une démarche d'analyse environnementale, avec des analyses faites au site du CEA Marcoule.
+              </p>
+              <p class="project-status" data-i18n="projects.radioStatus">
+                Projet tutoré : étude bibliographique et définition d'une démarche expérimentale. Les prélèvements et résultats analytiques ne sont pas présentés ici comme des travaux réalisés.
+              </p>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+        
+      </div>
+
+      <p class="project-group-label project-group-personal" data-i18n="projects.personal">PROJETS PERSONNELS ET NUMÉRIQUES</p>
+
+      <div class="project-list">
+        <article class="project-item reveal">
+          <div class="project-number">05</div>
+          <div class="project-main">
+            <p class="project-category" data-i18n="projects.inProgress">PROJET PERSONNEL · EN COURS</p>
+            <h3 data-i18n="projects.portfolioTitle">Conception et développement de ce portfolio</h3>
+            <p data-i18n="projects.portfolioSummary">
+              Création d'un espace numérique personnel pour structurer et valoriser mon parcours scientifique et professionnel.
+            </p>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+
+        <article class="project-item reveal">
+          <div class="project-number">06</div>
+          <div class="project-main">
+            <p class="project-category" data-i18n="projects.inProgress">PROJET PERSONNEL · EN COURS</p>
+            <h3 data-i18n="projects.financeTitle">Application de gestion de portefeuille boursier</h3>
+            <p data-i18n="projects.financeSummary">
+              Développement d'une application de suivi et d'analyse d'un portefeuille d'investissement, avec centralisation des données financières et indicateurs de suivi.
+            </p>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="content-section section-wrap" id="formation">
+      <div class="section-heading">
+        <span class="section-number">05</span>
+        <p class="eyebrow" data-i18n="education.eyebrow">FORMATION</p>
+        <h2 data-i18n-html="education.heading">Mon socle scientifique.<br></h2>
+      </div>
+
+      <div class="education-list">
+        <article class="education-item">
+          <span class="education-date">2022 — 2025</span>
+          <div>
+            <h3 data-i18n="education.degree1">Doctorat en chimie des matériaux</h3>
+            <p>Institut Européen des Membranes · Montpellier</p>
+            <span data-i18n="education.detail1">Développement de matériaux Al–N–H pour le stockage chimique de l'hydrogène.</span>
+          </div>
+        </article>
+
+        <article class="education-item">
+          <span class="education-date">2020 — 2022</span>
+          <div>
+            <h3 data-i18n="education.degree2">Master Chimie et Sciences des matériaux</h3>
+            <p>Université Claude Bernard Lyon 1</p>
+            <span data-i18n="education.detail2">Spécialités : Fabrication additive, composites, membranes et mousses.</span>
+          </div>
+        </article>
+
+        <article class="education-item">
+          <span class="education-date">2017 — 2020</span>
+          <div>
+            <h3 data-i18n="education.degree3">Licence de chimie</h3>
+            <p>Université de Montpellier</p>
+            <span data-i18n="education.detail3">Formation générale en chimie puis chimie des matériaux en troisième année.</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="content-section section-wrap" id="publications">
+      <div class="section-heading">
+        <span class="section-number">06</span>
+        <p class="eyebrow" data-i18n="publications.eyebrow">PRODUCTION SCIENTIFIQUE</p>
+        <h2 data-i18n-html="publications.heading">Valoriser les résultats de recherche.<br></h2>
+      </div>
+
+      <div class="publication-list">
+        <a class="publication-item" href="https://www.sciencedirect.com/science/article/abs/pii/S0360319924023152?via%3Dihub" target="_blank" rel="noopener noreferrer">
+          <span class="publication-year">2024</span>
+          <div>
+            <span class="publication-type" data-i18n="publications.review">ARTICLE DE SYNTHESE</span>
+            <h3>Exploring the potential of ammonia alane AlH3NH3 as hydrogen carrier</h3>
+            <p>International Journal of Hydrogen Energy</p>
+          </div>
+          <span class="publication-arrow">↗</span>
+        </a>
+
+        <a class="publication-item" href="https://www.sciencedirect.com/science/article/pii/S0360319926007597?via%3Dihub" target="_blank" rel="noopener noreferrer">
+          <span class="publication-year">2026</span>
+          <div>
+            <span class="publication-type" data-i18n="publications.article">ARTICLE DE RECHERCHE</span>
+            <h3 data-i18n="publications.paper2">Al–N–H compounds derived from ammonia alane: Synthesis strategies and characterization</h3>
+            <p>International Journal of Hydrogen Energy</p>
+          </div>
+          <span class="publication-arrow">↗</span>
+        </a>
+
+        <a class="publication-item" href="https://www.sciencedirect.com/science/article/pii/S0360319926035664?via%3Dihub" target="_blank" rel="noopener noreferrer">
+          <span class="publication-year">2026</span>
+          <div>
+            <span class="publication-type" data-i18n="publications.article">ARTICLE DE RECHERCHE</span>
+            <h3 data-i18n="publications.paper3">Al−N−H compounds derived from ammonia alane: Solid-state NMR study of dehydrogenation-induced polymeric phases</h3>
+            <p>International Journal of Hydrogen Energy</p>
+          </div>
+          <span class="publication-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- CENTRES D'INTÉRÊT -->
+    <section class="content-section section-wrap" id="interets">
+      <div class="section-heading">
+        <span class="section-number">07</span>
+        <p class="eyebrow" data-i18n="interests.eyebrow">AU-DELÀ DU LABORATOIRE</p>
+        <h2 data-i18n-html="interests.heading">Une curiosité qui<br><em>ne s'arrête pas à la chimie.</em></h2>
+      </div>
+
+      <div class="interests-grid">
+        <article class="interest-block">
+          <span class="interest-index">01</span>
+          <h3 data-i18n="interests.sport">Sports</h3>
+          <div class="interest-entry">
+            <span>Tennis</span><span>8 ans</span>
+          </div>
+          <div class="interest-entry">
+            <span>Tennis de table</span><span>5 ans</span>
+          </div>
+          <div class="interest-entry">
+            <span>Rugby</span><span>3 ans</span>
+          </div>
+        </article>
+
+        <article class="interest-block">
+          <span class="interest-index">02</span>
+          <h3 data-i18n="interests.science">Sciences</h3>
+          <div class="interest-entry">
+            <span data-i18n="interests.astronomy">Astronomie</span><span>Veille scientifique</span>
+          </div>
+        </article>
+
+        <article class="interest-block">
+          <span class="interest-index">03</span>
+          <h3 data-i18n="interests.reading">Lecture</h3>
+          <p data-i18n="interests.genres">Philosophie · Fantastique · Science-fiction · Développement personnel</p>
+          <div class="book-list">
+            <span>Fiodor Dostoïevski — <em>L'Idiot</em></span>
+            <span>Hermann Hesse — <em>Siddhartha</em></span>
+            <span>Robin Hobb — <em>L'Assassin royal</em></span>
+            <span>Frank Herbert — <em>Dune</em></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-content">
+        <p class="eyebrow" data-i18n="contact.eyebrow">CONTACT</p>
+        <h2 data-i18n-html="contact.heading">Construisons<br><em>la suite ensemble.</em></h2>
+        <p data-i18n="contact.intro">
+          Je suis ouvert aux échanges autour de projets scientifiques ou de possibles collaborations.
+        </p>
+
+        <a class="contact-link" href="https://www.linkedin.com/in/maxence-vincent-pro/" target="_blank" rel="noopener noreferrer">
+          <span>LinkedIn</span><span>↗</span>
+        </a>
+        <a class="contact-link" href="mailto:mailto:maxence.vincentpro@outlook.com">
+          <span data-i18n="contact.email">M'écrire par e-mail</span><span>↗</span>
+        </a>
+      </div>
+
+      <div class="contact-footer">
+        <span>MAXENCE VINCENT</span>
+        <span data-i18n="contact.footer">Portfolio professionnel · 2026</span>
+        <a href="#accueil" data-i18n="contact.top">Retour en haut ↑</a>
+      </div>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>
