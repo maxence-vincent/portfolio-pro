@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
     /* Synthèse et élaboration */
     "lewis": 5,
     "metathesis": 5,
-    "milling": 5,
-    "synthesis-ceramic": 5,
-    "synthesis-solvothermal": 5,
-    "protocols": 5,
+    "milling": 4,
+    "synthesis-ceramic": 4,
+    "synthesis-solvothermal": 3,
+    "protocols": 4,
     "inert": 5,
 
     /* RMN */
@@ -32,22 +32,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* Spectroscopies */
     "ftir": 5,
-    "xps": 5,
-    "raman": 5,
-    "uv": 5,
+    "xps": 4,
+    "raman": 4,
+    "uv": 4,
 
     /* Structure */
     "xrd": 4,
     "sem": 4,
 
     /* Analyses thermiques et gazeuses */
-    "gcms": 5,
+    "gcms": 4,
     "tga": 5,
     "dsc": 4,
 
     /* Adsorption */
     "bet": 4,
-    "pct": 4,
+    "pct": 3,
     "gas": 4,
 
     /* Logiciels */
