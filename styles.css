@@ -2037,3 +2037,54 @@ img {
 #projets .project-arrow {
     display: none;
 }
+/* Section valeur ajoutée */
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.value-card {
+    padding: 30px;
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    transition: background 0.25s ease;
+}
+
+.value-card:hover {
+    background: var(--bg-hover);
+}
+
+.value-index {
+    display: block;
+    margin-bottom: 28px;
+    color: var(--gold);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.value-card h3 {
+    margin: 0 0 16px;
+    color: var(--title);
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.value-card p {
+    margin: 0;
+    color: var(--description-color);
+    font-size: 14px;
+    line-height: 1.85;
+}
+
+@media (max-width: 760px) {
+    .value-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .value-card {
+        padding: 24px;
+    }
+}
