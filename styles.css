@@ -2004,3 +2004,31 @@ img {
     color: var(--text);
     font-style: normal;
 }
+/* Portrait professionnel dans le Hero */
+.hero-portrait {
+    display: flex;
+    justify-content: flex-start;
+    margin: 28px 0 22px;
+}
+
+.hero-portrait img {
+    width: 116px;
+    height: 116px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 1px solid rgba(229, 178, 93, 0.65);
+    box-shadow: 0 0 24px rgba(229, 178, 93, 0.10);
+}
+
+/* Adaptation mobile */
+@media (max-width: 760px) {
+    .hero-portrait {
+        margin: 22px 0 18px;
+    }
+
+    .hero-portrait img {
+        width: 100px;
+        height: 100px;
+    }
+}
