@@ -51,9 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
     "gas": 4,
 
     /* Logiciels */
-    "dmfit": 5,
+    "dmfit": 4,
     "origin": 5,
-    "omnic": 5,
+    "omnic": 4,
     "office": 5
   };
 
