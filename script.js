@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* Structure */
     "xrd": 4,
-    "sem": 4,
+    "sem": 3,
 
     /* Analyses thermiques et gazeuses */
     "gcms": 4,
