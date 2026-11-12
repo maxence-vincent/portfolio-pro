@@ -2098,3 +2098,25 @@ img {
 .publication-item:hover .publication-access {
     text-decoration: underline;
 }
+/* Lisibilité et confort de navigation */
+
+html {
+    scroll-padding-top: 100px;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 4px;
+}
+
+@media (max-width: 760px) {
+    html {
+        scroll-padding-top: 80px;
+    }
+}
