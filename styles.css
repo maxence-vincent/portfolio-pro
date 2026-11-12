@@ -2012,8 +2012,8 @@ img {
 }
 
 .hero-portrait img {
-    width: 116px;
-    height: 116px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
@@ -2028,7 +2028,7 @@ img {
     }
 
     .hero-portrait img {
-        width: 100px;
-        height: 100px;
+        width: 125px;
+        height: 125px;
     }
 }
