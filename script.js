@@ -231,7 +231,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "publications.article": "ARTICLE DE RECHERCHE",
       "publications.paper2": "Al–N–H compounds derived from ammonia alane: Synthesis strategies and characterization",
       "publications.paper3": "Al−N−H compounds derived from ammonia alane: Solid-state NMR study of dehydrogenation-induced polymeric phases",
-
+      "publications.access": "· Consulter l'article",
+       
       "interests.eyebrow": "AU-DELÀ DU LABORATOIRE",
       "interests.heading": "Une curiosité qui<br><em>ne s'arrête pas à la chimie.</em>",
       "interests.sport": "Sports",
@@ -244,6 +245,10 @@ document.addEventListener("DOMContentLoaded", () => {
       "contact.eyebrow": "CONTACT",
       "contact.heading": "Construisons<br><em>la suite ensemble.</em>",
       "contact.intro": "Je suis ouvert aux échanges autour de projets scientifiques.",
+      "contact.languagesLabel": "Langues :",
+      "contact.languagesValue": "Français · Anglais",
+      "contact.mobilityLabel": "Mobilité :",
+      "contact.mobilityValue": "Internationale",
       "contact.email": "M'écrire par e-mail",
       "contact.footer": "Portfolio professionnel",
       "contact.top": "Retour en haut ↑",
@@ -376,7 +381,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "publications.article": "RESEARCH ARTICLE",
       "publications.paper2": "Al–N–H compounds derived from ammonia alane: Synthesis strategies and characterization",
       "publications.paper3": "Al−N−H compounds derived from ammonia alane: Solid-state NMR study of dehydrogenation-induced polymeric phases",
-
+      "publications.access": "· Read publication",
+       
       "interests.eyebrow": "BEYOND THE LABORATORY",
       "interests.heading": "A curiosity that<br><em>extends beyond chemistry.</em>",
       "interests.sport": "Sports",
@@ -389,6 +395,10 @@ document.addEventListener("DOMContentLoaded", () => {
       "contact.eyebrow": "CONTACT",
       "contact.heading": "Let's build<br><em>what comes next.</em>",
       "contact.intro": "I welcome conversations about scientific projects.",
+      "contact.languagesLabel": "Languages:",
+      "contact.languagesValue": "French · English",
+      "contact.mobilityLabel": "Mobility:",
+      "contact.mobilityValue": "International",
       "contact.email": "Send me an email",
       "contact.footer": "Professional portfolio",
       "contact.top": "Back to top ↑",
