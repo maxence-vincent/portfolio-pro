@@ -485,7 +485,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const heroTitle = document.querySelector(".hero h1");
 
   if (heroTitle && !heroTitle.querySelector("em")) {
-      heroTitle.innerHTML = '<em>MAXENCE</em><br>VINCENT';
+      heroTitle.innerHTML = '<em class="hero-firstname">MAXENCE</em><br><span class="hero-lastname">VINCENT</span>';
   }
 
 
