@@ -149,10 +149,31 @@ document.addEventListener("DOMContentLoaded", () => {
       "experience.job1": "Docteur en chimie des matériaux",
       "experience.desc1": "Développement et caractérisation de matériaux Al–N–H dérivés de l'ammonia alane pour le stockage chimique de l'hydrogène.",
       "experience.bullet1": "Conception et conduite autonome d'un programme expérimental : définition des priorités, planification des essais, organisation des campagnes de caractérisation et analyse des résultats.",
-      "experience.bullet2": "Développement de trois stratégies de synthèse : réaction acide-base de Lewis, métathèse et broyage cryogénique.",
-      "experience.bullet3": "Caractérisation multi-technique et étude des environnements chimiques et structuraux.",
-      "experience.bullet4": "Initiation d'une collaboration scientifique avec le CEA Saclay, à l'origine de deux publications.",
-      "experience.type2": "STAGE R&D",
+      "experience.bullet2": "Conception et définition d'un sujet de recherche, puis encadrement d'un étudiant de Master 2 dans sa réalisation expérimentale et l'analyse des résultats.",
+      "experience.bullet3": "Gestion des stocks de produits chimiques et de consommables de l'équipe, suivi du bon fonctionnement de la boîte à gants et veille au respect des règles de sécurité au laboratoire.",
+     "experience.details": "Voir les travaux et résultats en détail",
+
+     "experience.phdMethodsTitle": "Développement et stratégies de synthèse",
+     "experience.phdMethods": "Développement de trois voies de synthèse de l'ammonia alane : réaction acide-base de Lewis, métathèse/déshydrogénation et broyage cryogénique. Étude de l'influence des conditions de synthèse (température, choix du solvant, quantité de solvant, etc.) sur les propriétés des matériaux obtenus.",
+
+     "experience.phdAnalysisTitle": "Caractérisation et analyses",
+     "experience.phdAnalysis": "Caractérisation structurale et chimique par RMN du solide MAS, notamment ¹H, ⁷Li, ¹⁵N et ²⁷Al MAS, MQMAS et expériences de corrélation, complétée par des analyses thermiques et des techniques spectroscopiques.",
+
+     "experience.phdResultsTitle": "Résultats et performances",
+     "experience.phdResult1": "Amélioration supérieure à 70 % des performances de libération d'hydrogène, évaluées par GC-MS, par rapport au matériau synthétisé en début de thèse.",
+     "experience.phdResult2": "Optimisation des conditions de déshydrogénation visant à limiter la formation de sous-produits issus de la thermolyse.",
+
+     "experience.phdAmmoniaTitle": "Étude de la libération d'ammoniac",
+     "experience.phdAmmonia": "Mise en évidence d'une libération d'ammoniac dans certaines conditions de traitement thermique. Adaptation d'une méthode analytique par GC-MS pour permettre la détection et la quantification du NH₃ libéré.",
+
+     "experience.phdCollaborationTitle": "Valorisation et collaboration scientifique",
+     "experience.phdCommunications": "Communications scientifiques lors de congrès nationaux (FR-H₂) et internationaux (E-MRS 2025, Varsovie).",
+     "experience.phdCollaboration": "Collaboration scientifique avec le CEA Saclay, notamment sur la spectroscopie RMN MAS, ayant contribué à deux publications scientifiques.",
+
+     "experience.phdPublications": "Consulter les publications associées"
+}
+
+     "experience.type2": "STAGE R&D",
       "experience.job2": "Stagiaire en recherche et développement",
       "experience.desc2": "Synthèse solvothermale de matériaux poreux de type MOF pour le stockage de l'hydrogène par adsorption.",
       "experience.bullet5": "Synthèse de matériaux poreux et imprégnation par nanoparticules.",
@@ -298,10 +319,32 @@ document.addEventListener("DOMContentLoaded", () => {
       "experience.type1": "PHD",
       "experience.job1": "PhD Researcher in Materials Chemistry",
       "experience.desc1": "Development and characterisation of Al–N–H materials derived from ammonia alane for chemical hydrogen storage.",
-      "experience.bullet1": "Independent design and management of an experimental programme, from synthesis to data interpretation.",
-      "experience.bullet2": "Development of three synthesis strategies: Lewis acid–base reaction, metathesis and cryogenic milling.",
-      "experience.bullet3": "Multi-technique characterisation and investigation of chemical and structural environments.",
-      "experience.bullet4": "Initiation of a scientific collaboration with CEA Saclay, resulting in two publications.",
+      "experience.bullet1": "Design and autonomous management of an experimental research programme: setting priorities, planning experiments, organizing characterization campaigns and analysing results.",
+      "experience.bullet2": "Design and definition of a research topic, followed by the supervision of a Master's student (M2) in its experimental implementation and data analysis.",
+      "experience.bullet3": "Management of the team's chemical and laboratory consumables inventory, ensuring the proper operation of the glovebox and compliance with laboratory safety regulations.",
+
+     "experience.details": "View research activities and results",
+
+     "experience.phdMethodsTitle": "Synthesis development and strategies",
+     "experience.phdMethods": "Development of three synthesis routes for ammonia alane: Lewis acid–base reaction, metathesis/dehydrogenation and cryogenic milling. Investigation of the influence of synthesis conditions (temperature, solvent selection, solvent amount, etc.) on the properties of the resulting materials.",
+
+     "experience.phdAnalysisTitle": "Characterization and analysis",
+     "experience.phdAnalysis": "Structural and chemical characterization using solid-state MAS NMR, including ¹H, ⁷Li, ¹⁵N and ²⁷Al MAS, MQMAS and correlation experiments, complemented by thermal analysis and spectroscopic techniques.",
+
+     "experience.phdResultsTitle": "Results and performance",
+     "experience.phdResult1": "Improvement of over 70% in hydrogen release performance, evaluated by GC-MS, compared with the material synthesized at the beginning of the PhD.",
+     "experience.phdResult2": "Optimization of dehydrogenation conditions to limit the formation of thermolysis-derived by-products.",
+
+     "experience.phdAmmoniaTitle": "Ammonia release investigation",
+     "experience.phdAmmonia": "Identification of ammonia release under specific thermal treatment conditions. Adaptation of a GC-MS analytical method to enable the detection and quantification of released NH₃.",
+
+     "experience.phdCollaborationTitle": "Scientific dissemination and collaboration",
+     "experience.phdCommunications": "Scientific presentations at national (FR-H₂) and international conferences (E-MRS 2025, Warsaw).",
+     "experience.phdCollaboration": "Scientific collaboration with CEA Saclay, particularly on solid-state MAS NMR spectroscopy, contributing to two scientific publications.",
+
+     "experience.phdPublications": "View related publications"
+}
+         
       "experience.type2": "R&D INTERNSHIP",
       "experience.job2": "Research and Development Intern",
       "experience.desc2": "Solvothermal synthesis of MOF-type porous materials for hydrogen storage by adsorption.",
