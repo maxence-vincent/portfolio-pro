@@ -232,7 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       "contact.eyebrow": "CONTACT",
       "contact.heading": "Construisons<br><em>la suite ensemble.</em>",
-      "contact.intro": "Je suis ouvert aux échanges autour de projets scientifiques ou de possibles collaborations.",
+      "contact.intro": "Je suis ouvert aux échanges autour de projets scientifiques.",
       "contact.email": "M'écrire par e-mail",
       "contact.footer": "Portfolio professionnel",
       "contact.top": "Retour en haut ↑",
@@ -366,7 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       "contact.eyebrow": "CONTACT",
       "contact.heading": "Let's build<br><em>what comes next.</em>",
-      "contact.intro": "I welcome conversations about scientific projects or potential collaboration opportunities.",
+      "contact.intro": "I welcome conversations about scientific projects.",
       "contact.email": "Send me an email",
       "contact.footer": "Professional portfolio",
       "contact.top": "Back to top ↑",
