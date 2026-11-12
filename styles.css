@@ -2088,3 +2088,13 @@ img {
         padding: 24px;
     }
 }
+/* Accès aux publications */
+
+.publication-access {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+.publication-item:hover .publication-access {
+    text-decoration: underline;
+}
