@@ -171,7 +171,6 @@ document.addEventListener("DOMContentLoaded", () => {
      "experience.phdCollaboration": "Collaboration scientifique avec le CEA Saclay, notamment sur la spectroscopie RMN MAS, ayant contribué à deux publications scientifiques.",
 
      "experience.phdPublications": "Consulter les publications associées"
-}
 
      "experience.type2": "STAGE R&D",
       "experience.job2": "Stagiaire en recherche et développement",
@@ -343,7 +342,6 @@ document.addEventListener("DOMContentLoaded", () => {
      "experience.phdCollaboration": "Scientific collaboration with CEA Saclay, particularly on solid-state MAS NMR spectroscopy, contributing to two scientific publications.",
 
      "experience.phdPublications": "View related publications"
-}
          
       "experience.type2": "R&D INTERNSHIP",
       "experience.job2": "Research and Development Intern",
