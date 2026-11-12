@@ -1992,3 +1992,15 @@ img {
 .section-heading .eyebrow {
     color: var(--section-label-color) !important;
 }
+/* Ajustement individuel du prénom et du nom */
+.hero h1 .hero-firstname {
+    font-size: 0.93em;
+    color: var(--hero-name-color);
+    font-style: italic;
+}
+
+.hero h1 .hero-lastname {
+    font-size: 1.04em;
+    color: var(--text);
+    font-style: normal;
+}
