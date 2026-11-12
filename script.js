@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       "about.eyebrow": "PRÉSENTATION",
       "about.heading": "Comprendre le monde,<br><em>puis explorer.</em>",
-      "about.lead": "Docteur en chimie des matériaux, mon parcours m'a conduit à explorer différentes problématiques scientifiques, de la synthèse de matériaux fonctionnels à leur caractérisation avancée.",
+      "about.lead": "Docteur en chimie des matériaux, mon parcours m'a conduit à explorer différentes problématiques scientifiques, de la synthèse de matériaux à leur caractérisation avancée.",
       "about.p1": "L'autonomie et la rigueur constituent le socle de mon approche scientifique. La conduite de travaux expérimentaux, l'analyse critique des résultats et la recherche de solutions face aux difficultés rencontrées ont façonné ma manière de travailler.",
       "about.p2": "Curieux et polyvalent, je souhaite continuer à élargir mon champ de compétences et découvrir de nouveaux domaines scientifiques et technologiques. Je ne cherche pas à me limiter à une spécialité, mais à m'investir dans des projets ambitieux, à la croisée de plusieurs disciplines.",
       "about.p3": "Ce qui me motive avant tout est de contribuer à un projet qui a une utilité réelle : développer une solution, faire progresser une technologie ou répondre à un besoin concret, qu'il soit industriel ou sociétal.",
