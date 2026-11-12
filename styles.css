@@ -2033,3 +2033,7 @@ img {
         height: 125px;
     }
 }
+/* Masquer les flèches uniquement dans les projets académiques */
+#projets .project-group-label:first-of-type + .project-list .project-arrow {
+    display: none;
+}
